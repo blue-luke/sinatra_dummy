@@ -1,12 +1,12 @@
-require 'sinatra'
-# require 'sinatra/base'
+# require 'sinatra'
+require 'sinatra/base'
 
-# class MyApp < Sinatra::Base
+class MyApp < Sinatra::Base
 
   get '/' do
-    'Hello Worldsss!'
+    'Hello Wor!'
   end
 
-  # run! if app_file == $0
+  run! if app_file == $0
 
-# end
+end
