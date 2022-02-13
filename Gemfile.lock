@@ -15,6 +15,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  rack (~> 1.6, >= 1.6.4)
   sinatra (~> 1.4, >= 1.4.7)
 
 BUNDLED WITH
