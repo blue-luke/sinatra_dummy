@@ -1,5 +1,12 @@
 require 'sinatra'
+# require 'sinatra/base'
 
-get '/' do
-  'Hello World!'
-end
+# class MyApp < Sinatra::Base
+
+  get '/' do
+    'Hello Worldsss!'
+  end
+
+  # run! if app_file == $0
+
+# end
